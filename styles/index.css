@@ -134,13 +134,8 @@ body {
     height: 700px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-}
-
-.container-2-bottom {
-    display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content:flex-start;
 }
 
 .sqr-black {
@@ -174,7 +169,6 @@ body {
 
 .row-2 {
     display: flex;
-    align-items: flex-start;
 }
 
 .sqr-1 {
@@ -190,15 +184,6 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
 }
-.row-1 {
-    display: flex;
-
-}
-
-.row-2 {
-    display: flex;
-   
-}
 
 .sqr-3 {
     display: flex;
@@ -207,3 +192,17 @@ body {
     align-content: space-between;
 }
 
+
+.sqr-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.sqr-5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
